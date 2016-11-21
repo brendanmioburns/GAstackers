@@ -1,0 +1,103 @@
+/*position static*/
+
+.container {
+  width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.stackers {
+  border:#000 1px solid;
+  width:300px;
+  height:150px;
+}
+
+#stacker2 {
+  margin-left:150px;
+}
+
+#stacker3 {
+  margin-left:300px;
+}
+
+.mirror-outer {
+  border:#000 1px solid;
+  width:100%;
+  height:800px;
+  position:relative;
+}
+
+.mirror-inner {
+  border:#000 1px solid;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+#mirror2 {
+  width:700px;
+  height:700px;
+}
+
+#mirror3 {
+  width:600px;
+  height:600px;
+}
+
+#mirror4 {
+  width:500px;
+  height:500px;
+}
+
+.skinny-small {
+  width:100%;
+  height:150px;
+  border:#000 1px solid;
+}
+
+.skinny-large {
+  width:600px;
+  height:400px;
+  border:#000 1px solid;
+  margin-right:auto;
+  margin-left:auto;
+
+}
+
+.absolute-outer {
+  border:#000 1px solid;
+  width:100%;
+  height:500px;
+  position:relative;
+
+}
+
+.absolute-inner {
+  border:#000 1px solid;
+  width:150px;
+  height:150px;
+  position:absolute;
+/*positions itself by default in top right corner*/
+}
+
+#absolute2 {
+  top:0;
+  right:0;
+}
+
+#absolute3 {
+  bottom:0;
+  left:0;
+}
+
+#absolute4 {
+  bottom:0;
+  right:0;
+}
+
+#absolute5 {
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
